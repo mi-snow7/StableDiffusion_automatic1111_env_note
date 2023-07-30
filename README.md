@@ -57,25 +57,41 @@ call webui.bat
   - needs to tagging to train images
 - https://github.com/Sanster/lama-cleaner
   - Lama cleaner
+- https://github.com/a2569875/stable-diffusion-webui-composable-lora.git
+  - Install from Extension index URL.
+  - Use this extension with latent couple instead of RegionalPrompter.
+    -  RegionalPrompter happened some critical error in my env.
   
+
 **Optional**  
 - https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git
 - https://github.com/nonnonstop/sd-webui-3d-open-pose-editor.git
 
-### 6. Change automatic1111 settings
+  
+### 6. Install VAE
+- kl-f8-anime2.ckpt
+  - https://huggingface.co/hakurei/waifu-diffusion-v1-4/tree/main/vae
+- Counterfeit-V2.5.vae.pt
+  - https://huggingface.co/gsdf/Counterfeit-V2.5/tree/main
+- vae-ft-mse-840000-ema-pruned.safetensors
+  - https://huggingface.co/stabilityai/sd-vae-ft-mse-original/tree/main
+- orangemix.vae.pt
+  - https://huggingface.co/WarriorMama777/OrangeMixs/tree/main/VAEs
+
+### 7. Change automatic1111 settings
 - User interface
   - Quicksettings list (setting entries that appear at the top of page rather than in settings tab) (requires restart)
     - Add `sd_model_checkpoint`, `sd_vae`, `CLIP_stop_at_last_layers`
     - **Set Clip skip to 2 after UI reloaded**
 
-### 7. Download checkpoints, LoRA, LyCORIS
+### 8. Download checkpoints, LoRA, LyCORIS
 https://civitai.com/
 
-### 8. Install Textual Inversion
+### 9. Install Textual Inversion
 Add files into `\stable-diffusion-webui\embeddings`
-- (badhandv4)[https://civitai.com/models/16993]
-- (EasyNegative)[https://civitai.com/models/7808]
-- (negative_hand Negative Embedding)[https://civitai.com/models/56519]
+- [badhandv4](https://civitai.com/models/16993)
+- [EasyNegative](https://civitai.com/models/7808)
+- [negative_hand Negative Embedding](https://civitai.com/models/56519)
 
 
 ## TIPS, Another tools
@@ -109,7 +125,7 @@ Don't forget **Disable ADetailer**
 
 
 ### TRAIN TOOLS
-- (Kohya's GUI)[https://github.com/bmaltais/kohya_ss]
+- [Kohya's GUI](https://github.com/bmaltais/kohya_ss)
   - SET-UP (T.B.D.)
 
 ## XX. settings, params
