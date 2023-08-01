@@ -63,7 +63,8 @@ Install these extensions from Extensions->Available tab.
     -  RegionalPrompter happened some critical error in my env.
 - https://github.com/ashen-sensored/stable-diffusion-webui-two-shot
   - Latent Couple extension
-
+- https://github.com/hako-mikan/sd-webui-supermerger
+  - LoRA merge tool: SuperMerger
 
 **Optional**  
 - https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git
