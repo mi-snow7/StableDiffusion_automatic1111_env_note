@@ -1,5 +1,4 @@
-# My StableDiffusion automatic1111 environment and notes
-
+# My StableDiffusion automatic1111 v1.5.1 environment and notes
 ## SET-UP automatic1111
 ### 1. Download StableDiffusion WebUI(automatic1111)
 ```
@@ -38,11 +37,12 @@ call webui.bat
 ### 4. Run(double click) webui-user.bat
 
 ### 5. Install automatic1111 extensions
+Install these extensions from Extensions->Available tab.
 **Mandatory**
 - https://github.com/LEv145/--sd-webui-ar-plus
   - aspect ratio selector
 - https://github.com/butaixianran/Stable-Diffusion-Webui-Civitai-Helper
-- https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris.git
+- ~~https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris.git~~
   - No longer needed for webui >= 1.5.0
 - https://github.com/Bing-su/adetailer
   - after detailer
@@ -87,6 +87,8 @@ call webui.bat
     - **Set Clip skip to 2 after UI reloaded**
 
 ### 8. Download checkpoints, LoRA, LyCORIS
+Add checkpoint models into `\stable-diffusion-webui\models\Stable-diffusion`  
+Add LoRA and LyCORIS models into `\stable-diffusion-webui\models\Lora`  
 https://civitai.com/
 
 ### 9. Install Textual Inversion
@@ -130,7 +132,8 @@ Don't forget **Disable ADetailer**
   - Resize mode: Resize and fill
   - Denoising strength: 0.3-0.5
   - **ControlNet Preprocessor: none**
-
+### LoRA block weights format on a1111-v1.5.0
+```<lora:flat2:-0.3:lbw=1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,0,0>```
 
 ## XX. settings, params
 #### weights settings
