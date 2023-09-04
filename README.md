@@ -1,14 +1,9 @@
-# My StableDiffusion automatic1111 v1.5.1 environment and notes
+# My StableDiffusion automatic1111 v1.6.0 environment and notes
 ## SET-UP automatic1111
 ### 1. Download StableDiffusion WebUI(automatic1111)
 ```
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 ```
-#### checkout old versions e.g.) v1.3.2
-```
-git checkout v1.3.2
-```
-[Another tags](https://github.com/AUTOMATIC1111/stable-diffusion-webui/tags)
 
 
 ### 2. Install python v3.10
@@ -72,6 +67,7 @@ Install these extensions from Extensions->Available tab.
 
   
 ### 6. Install VAE
+Add files into `\stable-diffusion-webui\models/VAE`
 - kl-f8-anime2.ckpt
   - https://huggingface.co/hakurei/waifu-diffusion-v1-4/tree/main/vae
 - Counterfeit-V2.5.vae.pt
