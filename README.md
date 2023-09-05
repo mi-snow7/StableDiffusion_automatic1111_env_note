@@ -96,6 +96,12 @@ Add files into `\stable-diffusion-webui\embeddings`
 
 
 ## TIPS, Another tools
+
+### SDXL and Refiner
+- Refiner(and VAE) checkpoint link
+  - https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/tree/main
+
+
 ### TOOLS
 - [Kohya's GUI](https://github.com/bmaltais/kohya_ss)
   - SET-UP (T.B.D.)
