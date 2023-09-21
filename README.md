@@ -32,7 +32,8 @@ call webui.bat
 ### 4. Run(double click) webui-user.bat
 
 ### 5. Install automatic1111 extensions
-Install these extensions from Extensions->Available tab.
+Install these extensions from `Extensions`->`Available` tab.  
+  
 **Mandatory**
 - https://github.com/LEv145/--sd-webui-ar-plus
   - aspect ratio selector
@@ -60,7 +61,8 @@ Install these extensions from Extensions->Available tab.
   - Latent Couple extension
 - https://github.com/hako-mikan/sd-webui-supermerger
   - LoRA merge tool: SuperMerger
-
+  
+  
 **Optional**  
 - https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git
 - https://github.com/nonnonstop/sd-webui-3d-open-pose-editor.git
