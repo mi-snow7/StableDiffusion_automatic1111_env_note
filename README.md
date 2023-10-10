@@ -1,4 +1,8 @@
 # My StableDiffusion automatic1111 v1.6.0 environment and notes
+Other tools link
+  
+**[Training LoRA with Kohya's GUI](Kohya's%20GUI.md)**
+
 ## SET-UP automatic1111
 ### 1. Download StableDiffusion WebUI(automatic1111)
 ```
@@ -105,8 +109,7 @@ Add files into `\stable-diffusion-webui\embeddings`
 
 
 ### TOOLS
-- [Kohya's GUI](https://github.com/bmaltais/kohya_ss)
-  - SET-UP (T.B.D.)
+- [Kohya's GUI](Kohya's%20GUI.md)
 - https://github.com/Sanster/lama-cleaner
   - Lama cleaner
 
