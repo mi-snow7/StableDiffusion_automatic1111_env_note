@@ -101,6 +101,9 @@ Add files into `\stable-diffusion-webui\embeddings`
 - [negative_hand Negative Embedding](https://civitai.com/models/56519)
 
 
+### 10. Install TensorRT Extension for Stable Diffusion
+T.B.D.  
+
 ## TIPS, Another tools
 
 ### SDXL and Refiner
