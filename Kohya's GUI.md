@@ -1,6 +1,8 @@
 # Kohya's GUI
 This is a note on how to train the LoRA model using Kohya's GUI.
   
+[LoRA training params official wiki](https://github.com/bmaltais/kohya_ss/wiki/LoRA-training-parameters#explaining-lora-learning-settings-using-kohya_ss-for-stable-diffusion-understanding-by-everyone)
+  
 ## Prior knowledge
 Regularization Images can help alleviate overfitting.
   
