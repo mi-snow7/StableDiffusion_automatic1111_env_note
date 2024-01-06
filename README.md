@@ -106,6 +106,13 @@ T.B.D.
 
 ## TIPS, Another tools
 
+### Hires.fix settings & params
+- Upscaler
+  - `4x-UltraSharp`, `R-ESRGAN 4x+`, `R-ESRGAN 4x+ Anime6B`
+- Denoising strength
+  - Recommended value is `0.25` to `0.50`
+
+
 ### SDXL and Refiner
 - Refiner(and VAE) checkpoint link
   - https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/tree/main
